@@ -1,6 +1,6 @@
 FROM python:3.6.5-alpine
 WORKDIR /app
-ADD . /app
+ADD ./app
 
 RUN set -e;\
         apk add --no-cache --virtual .build-deps \
